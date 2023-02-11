@@ -32,7 +32,7 @@ body {
 .head{
     display: flex;
     justify-content: space-around;
-    background-color: #9FC5F8;
+    background-color: #5582bd;
     padding: 30px;
 }
 
@@ -42,7 +42,7 @@ body nav a{
 }
 
 footer {
-    background-color: #9FC5F8;
+    background-color: #5582bd;
     height: 100px;
     margin-top: 50px;
     display: flex;
@@ -66,7 +66,7 @@ footer {
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #9FC5F8;
+    border: 1px solid #5582bd;
     font-family: 'calibri';
     font-size: 18px;
     color: white;
@@ -81,7 +81,7 @@ footer {
    
   .form-register .botons {
     width: 100%;
-    background: #9FC5F8;
+    background: #5582bd;
     border: none;
     padding: 12px;
     color: white;
@@ -94,51 +94,50 @@ footer {
     display: none;
   }
 
-  @media (max-width:400px) {
-        
-    .navbar{
-        display: none;
-    }
+  .container {
+    margin-top: 50px;
+}
 
-    .menu {
-        display: flex;
-        margin-left: 53px;
-        margin-top: 23px;
-    }    
-    
-  
-    footer {
-        background-color: #9FC5F8;
-        height: 100px;
-        margin-top: 50px;
-        display: flex;
-    }
-    
-    .form-register {
-        width: 300px;
-        padding: 30px;
-        margin: auto;
-        border-radius: 4px;
-        font-size: 22px;
-        margin-bottom: 20px;
-      }
-      
-      .controls {
-        width: 100%;
-      }
-      
-      .form-register p {
-        height: 40px;
-        text-align: center;
-        font-size: 18px;
-        line-height: 40px;
-      }
-      
-      
-      .form-register .botons {
-        width: 100%;
-        border: none;
-        padding: 12px;
-        margin: 16px 0;
-      }
+.navbar-brand {
+  display: flex;
+  width: 300px;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width:400px) {
+
+  .header-imagen{
+      width: 100%;
+      height: 280px;
   }
+
+  .navbar-expand-lg{
+      margin: 0;
+  }
+  .nav-item{
+      font-size: 20px; 
+      margin-right: 100px;
+  }
+
+  .navbar-brand{
+      font-size: 35px;
+      margin-left: 50px; 
+  }
+  .head{
+      padding: 0;
+      flex-direction: row;
+  }
+
+  .container-fluid{
+      flex-direction: column;
+  }
+  .navbar-toggler{
+      margin-right: 100px;
+  }
+}

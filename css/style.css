@@ -38,8 +38,8 @@ header {
 .head{
     display: flex;
     justify-content: space-around;
-    background-color: #9FC5F8;
-    padding: 30px;
+    background-color: #5582bd;
+    padding: 40px;
 }
 
 body nav a{
@@ -56,6 +56,10 @@ body nav a{
 
 .header-texto{
     display: flex;
+    background-color: #5582bd;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-imagen{
@@ -69,7 +73,7 @@ h2 {
 }
 
 footer {
-    background-color: #9FC5F8;
+    background-color: #5582bd;
     height: 100px;
     margin-top: 50px;
 }
@@ -91,25 +95,46 @@ footer {
 
 }
 
+.navbar-brand {
+    display: flex;
+    width: 300px;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 @media (max-width:400px) {
-  
-    .navbar{
-        display: none;
-    }
 
     .header-imagen{
         width: 100%;
         height: 280px;
     }
-    
-    h2 {
-        font-size: 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    .navbar-expand-lg{
+        margin: 0;
+    }
+    .nav-item{
+        font-size: 20px; 
+        margin-right: 100px;
     }
 
-    .menu {
-        display: flex;
-        margin-left: 53px;
-        margin-top: 23px;
+    .navbar-brand{
+        font-size: 35px;
+        margin-left: 50px; 
+    }
+    .head{
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .container-fluid{
+        flex-direction: column;
+    }
+    .navbar-toggler{
+        margin-right: 100px;
     }
 }

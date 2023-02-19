@@ -1,4 +1,23 @@
 {
+  "name": "PreEntrega3",
+  "version": "1.0.0",
+  "description": "Agregando SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/zoomZK/PreEntrega2-Acosta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoomZK/PreEntrega2-Acosta/issues"
+  },
+  "homepage": "https://github.com/zoomZK/PreEntrega2-Acosta#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"

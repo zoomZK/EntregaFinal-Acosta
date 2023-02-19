@@ -11,12 +11,6 @@ body {
     font-family: sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .title {
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -35,11 +29,20 @@ header {
     cursor: pointer;
 }
 
+.header-imagen {
+    width: 100%;
+    height: 750px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
 .head{
     display: flex;
     justify-content: space-around;
     background-color: #5582bd;
-    padding: 40px;
+    padding: 30px;
 }
 
 body nav a{
@@ -48,51 +51,14 @@ body nav a{
 
 }
 
-.header-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.header-texto{
-    display: flex;
-    background-color: #5582bd;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-imagen{
-    width: 100%;
-    height: 850px;
-}
-
-h2 {
-    font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 footer {
     background-color: #5582bd;
     height: 100px;
     margin-top: 50px;
 }
 
-.productos-nuevos {
+.container {
     margin-top: 50px;
-}
-
-.mas-vendido {
-    margin-top: 50px;
-}
-
-.producto {
-    cursor: pointer;
-}
-
-.menu {
-    display: none;
-
 }
 
 .navbar-brand {

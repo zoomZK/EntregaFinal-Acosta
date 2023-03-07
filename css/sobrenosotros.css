@@ -63,6 +63,9 @@ footer {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
 }
+.navbar-toggler-footer {
+    display: none;
+}
 
 @media (max-width:400px) {
 
@@ -93,5 +96,12 @@ footer {
     }
     .navbar-toggler{
         margin-right: 100px;
+    }
+    .navbar-toggler-footer{
+        display: none;
+    }
+    .redes{
+        margin-left: 330px;
+    
     }
 }

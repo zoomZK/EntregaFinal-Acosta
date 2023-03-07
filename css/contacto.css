@@ -49,7 +49,8 @@ footer {
 }
 
 .form-register {
-    width: 400px;
+    width: 600px;
+    height: 600px;
     background: #4674a3;
     padding: 30px;
     margin: auto;
@@ -61,12 +62,37 @@ footer {
     margin-top: 30px;
   }
 
-.contactanos {
+  .contactanos {
     margin-top: 30px;
   }
   
-  .controls {
+  .controls-n {
     width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #5582bd;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .controls-c {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #5582bd;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .controls-m {
+    width: 100%;
+    height: 300px;
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
@@ -115,6 +141,9 @@ footer {
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
 }
+.navbar-toggler-footer {
+  display: none;
+}
 
 @media (max-width:400px) {
 
@@ -146,4 +175,12 @@ footer {
   .navbar-toggler{
       margin-right: 100px;
   }
+  .navbar-toggler-footer{
+    display: none;
+  }
+  .redes{
+    margin-left: 330px;
+
+  }
+
 }

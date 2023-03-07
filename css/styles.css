@@ -77,6 +77,9 @@ footer {
   font-family: "Open Sans", sans-serif;
   margin-top: 100p;
 }
+.navbar-toggler-footer {
+  display: none;
+}
 
 @media (max-width: 400px) {
   .header-imagen {
@@ -84,7 +87,7 @@ footer {
     height: 280px;
   }
   .navbar-expand-lg {
-    margin: 0;
+    margin: 0px;
   }
   .nav-item {
     font-size: 20px;
@@ -92,7 +95,8 @@ footer {
   }
   .navbar-brand {
     font-size: 35px;
-    margin-left: 50px;
+    margin-left: 60px;
+    margin-right: 0px;
   }
   .head {
     padding: 0;
@@ -102,7 +106,14 @@ footer {
     flex-direction: column;
   }
   .navbar-toggler {
-    margin-right: 100px;
+    margin-right: 70px;
+  }
+  .navbar-toggler-footer {
+    display: none;
+  }
+  .redes {
+    margin-left: 330px;
+
   }
 }
 
